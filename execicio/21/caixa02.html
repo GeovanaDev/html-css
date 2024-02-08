@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(146, 132, 146);
+            margin: 0px;
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(225, 81, 225);
+            padding: 3px;
+            box-shadow: 1pc 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(238, 236, 238);
+            font-weight: bolder;
+            margin-right: 30px;
+        }
+        main{
+            background-color: rgb(250, 239, 244);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 33px;
+        }
+        article {
+            background-color: rgb(228, 213, 226);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(226, 30, 134);
+        }
+        footer {
+            background-color: black;
+            color: rgb(207, 24, 143);
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: mediumvioletred;
+            border-radius: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+<h1>meu site</h1>
+<nav>
+    <a href="#">link</a>
+
+</nav>
+    </header>
+    <main>
+<section id="assuntos"></section>
+
+<section id="noticias">
+    <article>
+        <h2>noticia brasil</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero enim, delectus excepturi, saepe dolorem corporis quis dignissimos est voluptates alias nobis accusamus asperiores! Aliquid architecto pariatur voluptate sed tempora? Rem?</p>
+<aside>
+    <p>artigo escrito por mim</p>
+</aside>
+    </article>
+    <article>
+
+    </article>
+</section>
+    </main>
+    <footer>
+        <p>
+            desenvolvido pelo curso em video
+        </p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
